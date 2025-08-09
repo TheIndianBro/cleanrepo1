@@ -1,0 +1,13 @@
+[world]
+name = "blockrooms"
+description = ""
+seed = "blockrooms1"
+
+[namespace]
+default = "blockrooms"
+
+[env]
+rpc_url = "https://api.cartridge.gg/x/starknet/sepolia"
+
+[writers]
+"blockrooms" = ["blockrooms-actions"] 
